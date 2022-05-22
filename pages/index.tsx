@@ -14,8 +14,20 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div>
           <div className={styles.o_logo}></div>
-          <div className={styles.z_logo}></div>
+          <div className={styles.z_logo}>
+            <div className={styles.z_logo_line}>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
         </div>
+        <div className={styles.loading}>
+          <div className={styles.loading_bar}></div>
+        </div>
+        <div className={styles.authentication}>認証中</div>
       </main>
     </div>
   );
