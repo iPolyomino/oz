@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import styles from "../styles/Index.module.css";
+import styles from "../styles/Authorized.module.css";
 
 const Home: NextPage = () => {
   return (
@@ -20,11 +20,10 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <form action="authorized" className={styles.id_pass}>
-          <input type="text" name="username" />
-          <input type="password" name="password" />
-          <button></button>
-        </form>
+        <div className={styles.loading}>
+          <div className={styles.loading_bar}></div>
+        </div>
+        <div className={styles.authentication}>認証中</div>
       </main>
     </div>
   );
