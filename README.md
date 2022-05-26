@@ -1,12 +1,16 @@
 # OZ
 
-(under development)
+This website doesn't use images and JavaScript.
+
+I implemented this website only HTML and CSS.
+
+You can check behavior at [https://oz.polyomino.jp/](https://oz.polyomino.jp/).
+
+Fill in the two input fields and press enter.
 
 ## Screenshot
 
-<div style="text-align:center">
-  <img src="https://raw.githubusercontent.com/iPolyomino/oz/main/screenshots/oz.png" alt="" width="300">
-</div>
+<img src="https://raw.githubusercontent.com/iPolyomino/oz/main/screenshots/oz.png" alt="" width="300">
 
 ## Development
 
