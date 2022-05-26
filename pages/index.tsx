@@ -20,11 +20,13 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <form action="authorized" className={styles.id_pass}>
-          <input type="text" name="username" />
-          <input type="password" name="password" />
-          <button></button>
-        </form>
+        <div className={styles.message}>
+          <form action="authorized" className={styles.id_pass}>
+            <input type="text" name="username" placeholder="ニックネーム" />
+            <input type="password" name="password" placeholder="パスワード" />
+            <button></button>
+          </form>
+        </div>
       </main>
     </div>
   );
