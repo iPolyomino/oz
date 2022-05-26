@@ -25,9 +25,9 @@
   top: -25px;
   width: 250px;
   box-sizing: border-box;
-  border-bottom: 250px solid #d33795;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
+  border-bottom: 250px solid #d33795;
 }
 .z_logo_line {
   position: absolute;
@@ -43,42 +43,25 @@
 }
 
 .z_logo_line > div:nth-child(1) {
-  background: transparent;
-  height: 40px;
-}
-.z_logo_line > div:nth-child(2) {
-  width: 80%;
-  position: absolute;
+  transform: perspective(250px) rotateX(36deg);
+  height: 200px;
 
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
+  border-top: 15px solid white;
+  border-bottom: 6px solid white;
 
-.z_logo_line > div:nth-child(3) {
-  width: 137%;
-  transform-origin: top right;
-  transform: rotate(-51deg);
-  position: relative;
-  top: 0;
-  right: 74px;
-}
-.z_logo_line > div:nth-child(4) {
-  background: transparent;
-  height: 155px;
-}
-.z_logo_line > div:nth-child(5) {
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  text-align: center;
+  background: linear-gradient(
+    128deg,
+    transparent,
+    transparent 47%,
+    white 48%,
+    white 51%,
+    transparent 51%,
+    transparent
+  );
 }
 
 .loading {
-  margin-top: 3rem;
+  margin-top: 2rem;
   width: 80%;
   height: 3rem;
   border: solid 2px pink;
@@ -104,6 +87,6 @@
 }
 
 .authentication {
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-size: 3rem;
 }

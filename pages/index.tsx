@@ -17,10 +17,6 @@ const Home: NextPage = () => {
           <div className={styles.z_logo}>
             <div className={styles.z_logo_line}>
               <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
             </div>
           </div>
         </div>
