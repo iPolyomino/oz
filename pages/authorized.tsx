@@ -20,10 +20,15 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className={styles.loading}>
-          <div className={styles.loading_bar}></div>
+        <div className={styles.message}>
+          <div className={styles.processing}>
+            <div className={styles.loading}>
+              <div className={styles.loading_bar}></div>
+            </div>
+            <div className={styles.authentication}>認証中</div>
+          </div>
+          <div className={styles.welcome}>Welcome!</div>
         </div>
-        <div className={styles.authentication}>認証中</div>
       </main>
     </div>
   );
